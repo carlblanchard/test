@@ -16,6 +16,8 @@ namespace Git_Hub_Test
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
+
+            Console.Write("Hello world");
         }
     }
 }
